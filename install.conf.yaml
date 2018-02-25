@@ -4,8 +4,6 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
-    ~/.zshrc: zshrc
-    ~/.zprofile: zprofile
     ~/.config/i3/config:
       create: true
       path: config/i3/config
@@ -23,9 +21,9 @@
     ~/.config/polybar/config:
       create: true
       path: config/polybar/config
-    ~/.zsh:
+    ~/.config/fish/config.fish:
       create: true
-      path: zsh
+      path: config/fish/fish.config
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
