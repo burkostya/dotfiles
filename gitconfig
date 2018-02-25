@@ -1,6 +1,18 @@
 # This is Git's per-user configuration file.
 [user]
-	email = pauldotknopf@gmail.com
-	name = Paul Knopf
+	email = burkostya@gmail.com
+	name = Konstantin Burykin
 [core]
-	editor = nano
+	editor = vim
+[color]
+	ui = true
+	branch = true
+	diff = true
+	interactive = true
+	status = true
+[push]
+	default = simple
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git@git.xpkg.ru:dvigus"]
+	insteadOf = https://git.xpkg.ru/dvigus
