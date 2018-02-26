@@ -12,7 +12,7 @@
 	status = true
 [push]
 	default = simple
-[url "git@github.com:"]
-	insteadOf = https://github.com/
+[url "git@github.com:suntoucha"]
+	insteadOf = https://github.com/suntoucha
 [url "git@git.xpkg.ru:dvigus"]
 	insteadOf = https://git.xpkg.ru/dvigus
