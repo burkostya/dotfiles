@@ -1,24 +1,20 @@
 
 - clean: ['~']
 
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
 - link:
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
-    ~/.config/i3/config:
-      create: true
-      path: config/i3/config
-    ~/.config/i3/startup:
-      create: true
-      path: config/i3/startup
-    ~/.config/alacritty/alacritty.yml:
-      create: true
-      path: config/alacritty/alacritty.yml
-    ~/.config/polybar/config:
-      create: true
-      path: config/polybar/config
-    ~/.config/fish:
-      create: true
-      path: config/fish
+    ~/.config/i3/config: config/i3/config
+    ~/.config/i3/startup: config/i3/startup
+    ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
+    ~/.config/polybar/config: config/polybar/config
+    ~/.config/fish: config/fish
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
