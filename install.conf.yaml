@@ -9,9 +9,9 @@
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
     ~/.config/i3/config: config/i3/config
-    ~/.config/i3/startup: config/i3/startup
     ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
     ~/.config/polybar/config: config/polybar/config
+    ~/.config/polybar/launch.sh: config/polybar/launch.sh
     ~/.config/fish/conf.d: config/fish/conf.d
     ~/.config/fish/config.fish: config/fish/config.fish
 
