@@ -16,9 +16,9 @@
     ~/.config/polybar/config:
       create: true
       path: config/polybar/config
-    ~/.config/fish/config.fish:
+    ~/.config/fish:
       create: true
-      path: config/fish/config.fish
+      path: config/fish
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
