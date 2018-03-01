@@ -9,4 +9,6 @@ autocutsel -fork &
 eval `dbus-launch --sh-syntax --exit-with-session`
 udiskie --tray &
 
+export TERMINAL=alacritty
+
 exec i3
