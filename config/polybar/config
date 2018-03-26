@@ -23,10 +23,11 @@ red = #d54e53
 [bar/example]
 monitor = ${env:MONITOR:HDMI-0}
 width = 100%
-height = 27
+height = 48
+dpi = 192
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 6.0
+radius = 0
 fixed-center = false
 
 background = ${colors.background}
@@ -54,6 +55,7 @@ modules-right = filesystem volume xkeyboard memory cpu eth temperature date powe
 
 tray-position = right
 tray-padding = 2
+tray-maxsize = 32
 ;tray-transparent = true
 ;tray-background = #0063ff
 
