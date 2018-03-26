@@ -11,4 +11,6 @@ udiskie --tray &
 
 export TERMINAL=alacritty
 
+export GDK_SCALE=2
+
 exec i3
