@@ -13,6 +13,4 @@ export TERMINAL=alacritty
 
 export GDK_SCALE=2
 
-xrdb -merge -I$HOME ~/.config/urxvt/config
-
 exec i3
