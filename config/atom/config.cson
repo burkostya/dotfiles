@@ -8,3 +8,4 @@
 		showInvisibles: true
 	core:
 		excludeVcsIgnoredPaths: false
+		telemetryConsent: "no"
