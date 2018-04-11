@@ -6,3 +6,5 @@
 	editor:
 		showIndentGuide: true
 		showInvisibles: true
+	core:
+		excludeVcsIgnoredPaths: false
