@@ -3,3 +3,6 @@
 		scaleFactor: 1.6
 	welcome:
 		showOnStartup: false
+	editor:
+		showIndentGuide: true
+		showInvisibles: true
