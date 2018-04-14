@@ -1,6 +1,6 @@
 "*":
 	hidpi:
-		scaleFactor: 1.6
+		scaleFactor: 1.8
 	welcome:
 		showOnStartup: false
 	editor:
