@@ -4,6 +4,7 @@
 	welcome:
 		showOnStartup: false
 	editor:
+		fontSize: 16
 		showIndentGuide: true
 		showInvisibles: true
 	core:
