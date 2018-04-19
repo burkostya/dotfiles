@@ -10,3 +10,4 @@
 	core:
 		excludeVcsIgnoredPaths: false
 		telemetryConsent: "no"
+		autoHideMenuBar: true
