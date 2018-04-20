@@ -6,6 +6,8 @@ unclutter -root -visible &
 
 autocutsel -fork &
 
+xbindkeys
+
 eval `dbus-launch --sh-syntax --exit-with-session`
 udiskie --tray &
 
