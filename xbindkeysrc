@@ -7,3 +7,6 @@
 
 "pactl set-sink-volume 0 -5%"
   XF86AudioLowerVolume
+
+"pactl set-source-mute 0 toggle"
+  XF86AudioMicMute
