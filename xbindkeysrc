@@ -10,3 +10,11 @@
 
 "pactl set-source-mute 0 toggle"
   XF86AudioMicMute
+
+# Brightness down
+"xbacklight -5"
+  XF86MonBrightnessDown
+
+# Brightness up
+"xbacklight +5"
+  XF86MonBrightnessUp
