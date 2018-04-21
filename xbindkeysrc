@@ -18,3 +18,7 @@
 # Brightness up
 "xbacklight +5"
   XF86MonBrightnessUp
+
+# wifi toggle
+"wifi toggle"
+  XF86WLAN
