@@ -11,6 +11,8 @@ xbindkeys
 eval `dbus-launch --sh-syntax --exit-with-session`
 udiskie --tray &
 
+pgrep redshift &> /dev/null || redshift &> /dev/null &
+
 export TERMINAL=alacritty
 
 export GDK_SCALE=2
