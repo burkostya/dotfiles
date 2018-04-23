@@ -123,4 +123,6 @@ client.urgent           #2A2A2A #2A2A2A #DDDDDD #333333
 
 default_border pixel 1
 
+assign [class="^Firefox$"] 3
+assign [class="^Chromium$"] 3
 exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
