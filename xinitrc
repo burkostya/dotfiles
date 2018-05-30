@@ -18,6 +18,4 @@ export TERMINAL=alacritty
 export GDK_SCALE=2
 export QT_SCALE_FACTOR=2
 
-export BROWSER=chromium
-
 exec i3
