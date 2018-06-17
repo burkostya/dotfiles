@@ -11,3 +11,6 @@
 		excludeVcsIgnoredPaths: false
 		telemetryConsent: "no"
 		autoHideMenuBar: true
+  "go-plus":
+    panel:
+      focusOnFailure: false
