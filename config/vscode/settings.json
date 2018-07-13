@@ -1,0 +1,6 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "window.zoomLevel": 4
+}

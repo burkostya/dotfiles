@@ -17,6 +17,7 @@
     ~/.config/fish/config.fish: config/fish/config.fish
     ~/.atom/keymap.cson: config/atom/keymap.cson
     ~/.atom/config.cson: config/atom/config.cson
+    ~/.config/Code/User/settings.json: config/vscode/settings.cson
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
