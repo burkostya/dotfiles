@@ -1,0 +1,11 @@
+{
+	"Method": {
+		"prefix": "fm",
+		"body": [
+			"func (${1:receiver}) ${2:name}(${3:args}) ${4:results} {",
+			"\t${0:return}",
+			"}"
+		],
+		"description": "Write method on reciever"
+	}
+}
