@@ -8,5 +8,9 @@
     },
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro",
-    "materialTheme.fixIconsRunning": false
+    "materialTheme.fixIconsRunning": false,
+    "vim.insertModeKeyBindings": [{
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+    }]
 }
