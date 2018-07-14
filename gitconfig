@@ -14,5 +14,7 @@
 	default = simple
 [url "git@github.com:suntoucha"]
 	insteadOf = https://github.com/suntoucha
-[url "git@git.xpkg.ru:dvigus"]
-	insteadOf = https://git.xpkg.ru/dvigus
+[url "git@git.xpkg.ru:"]
+	insteadOf = https://git.xpkg.ru/
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
