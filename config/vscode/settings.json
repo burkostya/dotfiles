@@ -12,5 +12,22 @@
     "vim.insertModeKeyBindings": [{
         "before": ["j", "j"],
         "after": ["<Esc>"]
-    }]
+    }],
+    "vim.handleKeys": {
+        "<C-w>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [";"],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
+        {
+            "before": ["Z", "Z"],
+            "commands": [
+                ":wq"
+            ]
+        }
+    ],
 }
