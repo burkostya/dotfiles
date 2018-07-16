@@ -28,6 +28,18 @@
             "commands": [
                 ":wq"
             ]
+        },
+                {
+            "before": ["q"],
+            "commands": [
+                "cursorWordPartRight"
+            ]
+        },
+        {
+            "before": ["Q"],
+            "commands": [
+                "cursorWordPartStartLeft"
+            ]
         }
     ],
     "git.autofetch": true,
