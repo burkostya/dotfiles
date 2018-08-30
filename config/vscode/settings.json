@@ -2,7 +2,7 @@
     "window.menuBarVisibility": "toggle",
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "window.zoomLevel": 4,
+    "window.zoomLevel": 0.4,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
