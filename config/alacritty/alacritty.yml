@@ -402,7 +402,5 @@ key_bindings:
   - { key: F12,      mods: Super,   chars: "\x1b[24;3~"                  }
   - { key: PageUp,                  action: ScrollPageUp   }
   - { key: PageDown,                action: ScrollPageDown }
-  - { key: End,                     action: ScrollToBottom }
-  - { key: Home,                    action: ScrollToTop    }
   - { key: L,        mods: Control|Shift, action: ClearHistory   }
   - { key: L,        mods: Control|Shift, chars: "\x0c"          }
