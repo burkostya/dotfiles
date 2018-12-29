@@ -202,6 +202,8 @@ mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
 
+  hide_when_typing: false
+
 scrolling:
   # How many lines of scrollback to keep,
   # '0' will disable scrolling.
@@ -229,8 +231,6 @@ selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
 
 dynamic_title: true
-
-hide_cursor_when_typing: false
 
 # Style of the cursor
 #
