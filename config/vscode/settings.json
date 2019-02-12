@@ -10,6 +10,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro",
     "materialTheme.fixIconsRunning": false,
+    "vim.useSystemClipboard": true,
     "vim.insertModeKeyBindings": [{
         "before": ["j", "j"],
         "after": ["<Esc>"]
