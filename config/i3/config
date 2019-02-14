@@ -132,4 +132,6 @@ for_window [class="Dia" window_role="toolbox_window"] resize set width 300px
 
 assign [class="yEd$"] 7
 
+for_window [class="Alacritty" title="^\[mosh\]"] move container to workspace 6, focus
+
 exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
