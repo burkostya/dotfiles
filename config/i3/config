@@ -127,7 +127,7 @@ assign [class="^Firefox$"] 3
 assign [class="^Chromium$"] 3
 assign [class="^TelegramDesktop$"] 4
 
-assign [class="^Dia$"] 9
+assign [class="^Dia$"] 7
 for_window[class="Dia" window_role="toolbox_window"] resize set width 300px
 
 exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
