@@ -123,17 +123,18 @@ client.urgent           #2A2A2A #2A2A2A #DDDDDD #333333
 
 default_border pixel 1
 
-assign [class="^Firefox$"] 3
-assign [class="^Chromium$"] 3
-assign [class="^TelegramDesktop$"] 4
+assign [class="^Code$"] 1:code
+assign [class="^Firefox$"] 3:web
+assign [class="^Chromium$"] 3:web
+assign [class="^TelegramDesktop$"] 4:msg
 
-assign [class="DBeaver"] 5
+assign [class="DBeaver"] 5:db
 
-assign [class="^Dia$"] 7
+assign [class="^Dia$"] 7:design
 for_window [class="Dia" window_role="toolbox_window"] resize set width 300px
 
-assign [class="yEd$"] 7
+assign [class="yEd$"] 7:design
 
-for_window [class="Alacritty" title="^\[mosh\]"] move container to workspace 6, focus
+for_window [class="Alacritty" title="^\[mosh\]"] move container to workspace 6:ssh, focus
 
 exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
