@@ -127,6 +127,8 @@ assign [class="^Firefox$"] 3
 assign [class="^Chromium$"] 3
 assign [class="^TelegramDesktop$"] 4
 
+assign [class="DBeaver"] 5
+
 assign [class="^Dia$"] 7
 for_window [class="Dia" window_role="toolbox_window"] resize set width 300px
 
