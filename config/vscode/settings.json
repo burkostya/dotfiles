@@ -53,6 +53,6 @@
         "*.html": "html"
     },
     "go.docsTool": "gogetdoc",
-    "go.lintTool": "gometalinter",
+    "go.lintTool": "revive",
     "go.useLanguageServer": true
 }
