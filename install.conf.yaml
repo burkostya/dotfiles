@@ -18,7 +18,6 @@
     ~/.atom/keymap.cson: config/atom/keymap.cson
     ~/.atom/config.cson: config/atom/config.cson
     ~/.config/Code/User/settings.json: config/vscode/settings.json
-    ~/.config/Code/User/snippets/go.json: config/vscode/go.json
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
