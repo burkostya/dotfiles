@@ -52,7 +52,11 @@
     "files.associations": {
         "*.html": "html"
     },
-    "go.docsTool": "gogetdoc",
-    "go.lintTool": "revive",
-    "go.useLanguageServer": true
+    "go.docsTool": "godoc",
+    "go.lintTool": "golint",
+    "go.enableCodeLens": {
+        "references": false,
+        "runtest": true
+    },
+    "explorer.confirmDragAndDrop": false
 }
