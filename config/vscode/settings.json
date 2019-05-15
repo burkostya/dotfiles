@@ -51,11 +51,17 @@
     "files.associations": {
         "*.html": "html"
     },
-    "go.docsTool": "godoc",
     "go.lintTool": "golint",
     "go.enableCodeLens": {
         "references": false,
         "runtest": true
     },
-    "explorer.confirmDragAndDrop": false
+    "go.useLanguageServer": true,
+    "go.alternateTools": {
+        "go-langserver": "gopls", 
+    },
+    "go.languageServerExperimentalFeatures": {
+        "format": true,
+        "autoComplete": true
+    },
 }
