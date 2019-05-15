@@ -70,4 +70,17 @@
         "promptForTags": false,
         "transform": "snakecase"
     },
+    "atlascode.bitbucket.contextMenus.enabled": false,
+    "atlascode.bitbucket.explorer.enabled": false,
+    "atlascode.bitbucket.explorer.notifications.pullRequestCreated": false,
+    "atlascode.bitbucket.explorer.relatedBitbucketIssues.enabled": false,
+    "atlascode.bitbucket.explorer.relatedJiraIssues.enabled": false,
+    "atlascode.bitbucket.issues.explorerEnabled": false,
+    "atlascode.bitbucket.issues.monitorEnabled": false,
+    "atlascode.bitbucket.pipelines.explorerEnabled": false,
+    "atlascode.bitbucket.pipelines.monitorEnabled": false,
+    "atlascode.bitbucket.statusbar.enabled": false,
+    "atlascode.bitbucket.statusbar.showLogin": false,
+    "atlascode.bitbucket.statusbar.showProduct": false,
+    "atlascode.bitbucket.statusbar.showUser": false
 }
