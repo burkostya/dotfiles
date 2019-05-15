@@ -64,4 +64,10 @@
         "format": true,
         "autoComplete": true
     },
+    "go.addTags": {
+        "tags": "json",
+        "options": "json=omitempty",
+        "promptForTags": false,
+        "transform": "snakecase"
+    },
 }
