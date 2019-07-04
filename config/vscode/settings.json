@@ -4,6 +4,7 @@
     "telemetry.enableCrashReporter": false,
     "window.zoomLevel": 0.4,
     "window.titleBarStyle": "custom",
+    "explorer.confirmDragAndDrop": false,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
