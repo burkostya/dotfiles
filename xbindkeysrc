@@ -22,3 +22,7 @@
 # wifi toggle
 "wifi toggle"
   XF86WLAN
+
+# switch keyboard backlight
+"kbdlight"
+  Mod4 + Super_L
