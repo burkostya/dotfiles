@@ -25,4 +25,4 @@
 
 # switch keyboard backlight
 "kbdlight"
-  Mod4 + Super_L
+  Alt+Mod4 + space
