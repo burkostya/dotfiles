@@ -26,3 +26,7 @@
 # switch keyboard backlight
 "kbdlight"
   Alt+Mod4 + space
+
+# screenshot
+"scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/screenshots/'"
+  Print
