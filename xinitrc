@@ -11,7 +11,7 @@ xbindkeys
 # do no use it because https://bbs.archlinux.org/viewtopic.php?id=234245
 # eval `dbus-launch --sh-syntax --exit-with-session`
 
-udiskie --tray &
+# udiskie --tray &
 
 pgrep redshift &> /dev/null || redshift &> /dev/null &
 
