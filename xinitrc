@@ -8,7 +8,9 @@ autocutsel -fork &
 
 xbindkeys
 
-eval `dbus-launch --sh-syntax --exit-with-session`
+# do no use it because https://bbs.archlinux.org/viewtopic.php?id=234245
+# eval `dbus-launch --sh-syntax --exit-with-session`
+
 udiskie --tray &
 
 pgrep redshift &> /dev/null || redshift &> /dev/null &
