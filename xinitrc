@@ -13,7 +13,7 @@ xbindkeys
 
 # udiskie --tray &
 
-pgrep redshift &> /dev/null || redshift &> /dev/null &
+pgrep redshift &> /dev/null || redshift -l 55.75222:37.61556 &> /dev/null &
 
 export TERMINAL=alacritty
 
