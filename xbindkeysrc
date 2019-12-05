@@ -30,3 +30,7 @@
 # screenshot
 "scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/screenshots/'"
   Print
+
+# lock screen
+"i3lock -c 333333 -n"
+  XF86Favorites
