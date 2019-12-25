@@ -6,6 +6,7 @@
       create: true
 
 - link:
+    ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
     ~/.xbindkeysrc: xbindkeysrc
