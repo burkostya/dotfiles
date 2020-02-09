@@ -1,3 +1,5 @@
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+
 compton -b
 
 setxkbmap -layout "us, ru" -option "grp:caps_toggle"

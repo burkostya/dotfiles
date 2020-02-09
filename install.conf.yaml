@@ -11,6 +11,7 @@
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
     ~/.xbindkeysrc: xbindkeysrc
+    ~/.Xresources: Xresources
     ~/.config/i3/config: config/i3/config
     ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
     ~/.config/polybar/config: config/polybar/config
