@@ -53,18 +53,21 @@
     "files.associations": {
         "*.html": "html"
     },
-    "go.lintTool": "golint",
+    "go.lintTool": "golangci-lint",
     "go.enableCodeLens": {
         "references": false,
         "runtest": true
     },
     "go.useLanguageServer": true,
-    "go.alternateTools": {
-        "go-langserver": "gopls", 
-    },
     "go.languageServerExperimentalFeatures": {
         "format": true,
-        "autoComplete": true
+        "autoComplete": true,
+        "diagnostics": true,
+        "documentLink": true
+    },
+    "gopls": {
+        "usePlaceholders": true,
+        "staticcheck": false
     },
     "go.addTags": {
         "tags": "json",
