@@ -17,6 +17,8 @@ xbindkeys
 
 pgrep redshift &> /dev/null || redshift -l 55.75222:37.61556 &> /dev/null &
 
+flameshot &
+
 export TERMINAL=alacritty
 
 export GDK_SCALE=2
