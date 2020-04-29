@@ -21,6 +21,7 @@
     ~/.atom/keymap.cson: config/atom/keymap.cson
     ~/.atom/config.cson: config/atom/config.cson
     ~/.config/Code/User/settings.json: config/vscode/settings.json
+    ~/.config/Dharkael/flameshot.ini: config/flameshot/config.ini
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
