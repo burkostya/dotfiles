@@ -139,3 +139,4 @@ assign [class="yEd$"] 7:design
 for_window [class="Alacritty" title="^\[mosh\]"] move container to workspace 6:ssh, focus
 
 exec_always --no-startup-id "$HOME/.config/polybar/launch.sh"
+exec_always --no-startup-id "deadd-notification-center"
