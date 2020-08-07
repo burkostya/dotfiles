@@ -21,6 +21,7 @@ window:
   dimensions:
     columns: 80
     lines: 24
+  dynamic_title: true
 
   # Adds this many blank pixels of padding around the window
   # Units are physical pixels; this is not DPI aware.
@@ -223,8 +224,6 @@ scrolling:
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
-
-dynamic_title: true
 
 # Style of the cursor
 #
