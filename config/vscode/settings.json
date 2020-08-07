@@ -43,6 +43,24 @@
             "commands": [
                 "cursorWordPartStartLeft"
             ]
+        },
+        {
+            "before": ["g", "s"],
+            "commands": [
+                "git.stageSelectedRanges"
+            ]
+        },
+        {
+            "before": ["g", "c"],
+            "commands": [
+                "git.commitStaged"
+            ]
+        },
+        {
+            "before": ["g", "p"],
+            "commands": [
+                "git.push"
+            ]
         }
     ],
     "git.autofetch": true,
