@@ -24,4 +24,7 @@ export TERMINAL=alacritty
 export GDK_SCALE=2
 export QT_SCALE_FACTOR=2
 
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
+
 exec i3
