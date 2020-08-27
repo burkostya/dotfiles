@@ -1,5 +1,7 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 
+source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+
 compton -b
 
 setxkbmap -layout "us, ru" -option "grp:caps_toggle"
