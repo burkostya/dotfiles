@@ -1,27 +1,4 @@
-
-- clean: ['~']
-
-- defaults:
-    link:
-      create: true
-
 - link:
-    ~/.vimrc: vimrc
-    ~/.ideavimrc: vimrc
-    ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
     ~/.xbindkeysrc: xbindkeysrc
-    ~/.Xresources: Xresources
-    ~/.config/i3/config: config/i3/config
-    ~/.config/alacritty/alacritty.yml: config/alacritty/alacritty.yml
-    ~/.config/polybar/config: config/polybar/config
-    ~/.config/polybar/launch.sh: config/polybar/launch.sh
     ~/.config/fish/conf.d: config/fish/conf.d
-    ~/.config/fish/config.fish: config/fish/config.fish
-    ~/.atom/keymap.cson: config/atom/keymap.cson
-    ~/.atom/config.cson: config/atom/config.cson
-    ~/.config/Code/User/settings.json: config/vscode/settings.json
-    ~/.config/Dharkael/flameshot.ini: config/flameshot/config.ini
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
