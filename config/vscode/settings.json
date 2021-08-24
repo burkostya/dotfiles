@@ -65,6 +65,20 @@
     ],
     "git.autofetch": true,
     "git.confirmSync": false,
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "All open issues",
+            "query": "state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ],
     "editor.fontFamily": "'Fira Code Retina', 'Material Design Icons', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
