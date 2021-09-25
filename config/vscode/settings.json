@@ -89,10 +89,7 @@
     },
     "go.useLanguageServer": true,
     "go.languageServerExperimentalFeatures": {
-        "format": true,
-        "autoComplete": true,
-        "diagnostics": true,
-        "documentLink": true
+        "diagnostics": true
     },
     "gopls": {
         "usePlaceholders": true,
