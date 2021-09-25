@@ -87,6 +87,12 @@
         "references": false,
         "runtest": true
     },
+    "githubIssues.ignoreCompletionTrigger": [
+        "yaml"
+    ],
+    "githubIssues.ignoreUserCompletionTrigger": [
+        "yaml"
+    ],
     "go.useLanguageServer": true,
     "go.languageServerExperimentalFeatures": {
         "diagnostics": true
