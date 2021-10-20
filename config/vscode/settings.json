@@ -78,6 +78,7 @@
     "editor.fontFamily": "'Fira Code Retina', 'Material Design Icons', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures": true,
     "editor.fontSize": 15,
+    "editor.guides.bracketPairs": true,
     "files.associations": {
         "*.html": "html"
     },
