@@ -1,7 +1,6 @@
 {
     "window.menuBarVisibility": "toggle",
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "window.zoomLevel": 0.4,
     "window.titleBarStyle": "custom",
     "explorer.confirmDragAndDrop": false,
