@@ -1,3 +1,3 @@
 inoremap jj <ESC>
 
-set clipboard=unnamed,unnamedplus,ideaput
+set clipboard=unnamed,unnamedplus

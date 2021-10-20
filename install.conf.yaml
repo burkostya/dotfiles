@@ -7,7 +7,7 @@
 
 - link:
     ~/.vimrc: vimrc
-    ~/.ideavimrc: vimrc
+    ~/.ideavimrc: ideavimrc
     ~/.gitconfig: gitconfig
     ~/.xinitrc: xinitrc
     ~/.xbindkeysrc: xbindkeysrc
